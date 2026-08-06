@@ -23,6 +23,20 @@ const corrections = [
   ['pg114_n0024', 'anayejiti sheria', 'anayetii sheria'],
   ['pg114_n0024_easy_read', 'anayejitia sheria', 'anayetii sheria'],
   ['pg115_n0015', 'kuzikuzza', 'kuzikuza'],
+  ['pg086_n0007', 'walikuu hawawezi', 'waliokuwa hawawezi'],
+  ['pg086_n0007_easy_read', 'waliokuu ambao', 'waliokuwa ambao'],
+  ['pg086_n0018', 'zilitgemea', 'zilitegemea'],
+  ['pg092_n0019', 'utafwala', 'utawala'],
+  ['pg092_n0019_easy_read', 'utafwala', 'utawala'],
+  ['pg102_n0054', 'walilamua', 'waliamua'],
+  ['pg103_n0014', 'kinachoongoeza', 'kinachoongoza'],
+  ['pg103_n0016', 'wajamii', 'wanajamii'],
+  ['pg105_n0005', 'mdumndiko', 'mdundiko'],
+  ['pg105_n0005_easy_read', 'mdumndiko', 'mdundiko'],
+  ['pg108_n0003', 'ilisasabishwa', 'ilisababishwa'],
+  ['pg115_n0028', 'inamaanana', 'inamaanisha'],
+  ['pg118_n0006', 'Kiuenzi', 'Kuienzi'],
+  ['pg120_n0011', 'hujita', 'hujiita'],
 ];
 
 for (const [id, before, after] of corrections) {
@@ -31,6 +45,7 @@ for (const [id, before, after] of corrections) {
   if (!texts[id].includes(after)) throw new Error(`Correction was not applied: ${id}`);
 }
 delete texts.pg001_n0006;
+delete texts.pg001_n0006_easy_read;
 fs.writeFileSync(textPath, `${JSON.stringify(texts, null, 2)}\n`);
 
 const htmlCorrections = new Map([
