@@ -9,9 +9,9 @@
 
 ## Implemented in this release
 
-- Removed the hidden **“FOR ONLINE READING ONLY”** cover message.
+- Removed the hidden, non-source **“FOR ONLINE READING ONLY”** reader message. This does not remove a watermark when it is visibly part of the original title-page artwork.
 - Corrected source and fallback HTML text on pages 70, 76, 80, 82, 94, 111, 114, and 115. This includes `mwendelezo`, `alichukua`, `mababu`, `telegramu`, `kibepari`, `alitoalo`, `aliyeukiuka`, `kukiuka`, `kuzilinda`, `Ina maana kwamba`, `hauigizwi`, `anayetii`, and `kuzikuza`.
-- Updated the matching Easy Read entries for `telegramu`, `kibepari`, and `anayetii`.
+- Updated the matching Easy Read entries for `telegramu`, `kibepari`, `mababu`, and `anayetii`.
 - Refreshed `assets/offline-preloader.js`, so the same corrected texts work when the book is opened offline.
 - Confirmed that consolidated secondary sections are no longer in `content/pages.json`. Their old URLs remain as redirect-only compatibility files, preventing broken bookmarks and the previous GitHub Pages 404 error.
 
