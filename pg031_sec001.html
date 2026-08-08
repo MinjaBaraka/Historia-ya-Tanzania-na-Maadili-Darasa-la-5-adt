@@ -18,39 +18,22 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      /* This is the original single source figure.  It already contains the
+         five mineral illustrations and their labels, so no fragment grid or
+         duplicate captions may be added around it. */
+      #pg031-minerals-source { display: block; width: 100%; height: auto; max-width: 868px; margin: 0 auto; object-fit: contain; }
     </style></head>
 
-<body class="min-h-screen flex items-center justify-center">
+<body class="min-h-screen bg-white">
     <main class="w-full">
       <div id="content" class="mx-auto w-full max-w-5xl bg-white px-8 py-10 text-slate-800 max-sm:px-5 opacity-0">
   <section data-section-type="text_and_images" data-section-id="pg031_sec001" class="w-full">
-    <div class="mx-auto mb-8 max-w-4xl">
-      <div class="grid grid-cols-6 gap-y-8 max-lg:grid-cols-2 max-lg:gap-x-10 max-lg:gap-y-10 max-sm:grid-cols-1 max-sm:gap-y-8">
-        <div class="col-span-2 flex flex-col items-center max-lg:col-span-1">
-          <img src="images/pg031_im004_seg001_v1.png" alt="Kipande cha almasi chenye maumbo ya fuwele ya rangi ya kijivu na nyeupe." data-id="pg031_im004_seg001_v1" class="block w-full max-w-[190px] h-auto object-contain" style="max-width: 100%; height: auto;">
-          <div data-id="pg031_n0002" class="adt-caption mt-2 text-center font-medium text-slate-800">Almasi</div>
-        </div>
-        <div class="col-span-2 flex flex-col items-center max-lg:col-span-1">
-          <img src="images/pg031_im004_seg002_v1.png" alt="Kipande cha dhahabu chenye rangi ya njano ya kung&#x2019;aa." data-id="pg031_im004_seg002_v1" class="block w-full max-w-[180px] h-auto object-contain" style="max-width: 100%; height: auto;">
-          <div data-id="pg031_n0004" class="adt-caption mt-2 text-center font-medium text-slate-800">Dhahabu</div>
-        </div>
-        <div class="col-span-2 flex flex-col items-center max-lg:col-span-1">
-          <img src="images/pg031_im004_seg003_v1.png" alt="Kipande cha makaa ya mawe chenye rangi nyeusi-kijivu." data-id="pg031_im004_seg003_v1" class="block w-full max-w-[220px] h-auto object-contain" style="max-width: 100%; height: auto;">
-          <div data-id="pg031_n0006" class="adt-caption mt-2 text-center font-medium text-slate-800">Makaa ya mawe</div>
-        </div>
-        <div class="col-span-2 col-start-2 flex flex-col items-center max-lg:col-span-1 max-lg:col-start-auto">
-          <img src="images/pg031_im004_seg004_v1.png" alt="Kipande cha bati chenye rangi ya kijivu ya metali." data-id="pg031_im004_seg004_v1" class="block w-full max-w-[170px] h-auto object-contain" style="max-width: 100%; height: auto;">
-          <div data-id="pg031_n0008" class="adt-caption mt-2 text-center font-medium text-slate-800">Bati</div>
-        </div>
-        <div class="col-span-2 col-start-4 flex flex-col items-center max-lg:col-span-1 max-lg:col-start-auto">
-          <img src="images/pg031_im004_seg005_v1.png" alt="Kipande cha chumvi ya mwamba chenye rangi nyeupe iliyofifia." data-id="pg031_im004_seg005_v1" class="block w-full max-w-[180px] h-auto object-contain" style="max-width: 100%; height: auto;">
-          <div data-id="pg031_n0010" class="adt-caption mt-2 text-center font-medium text-slate-800">Chumvi</div>
-        </div>
-      </div>
-    </div>
+    <figure class="mx-auto mb-8 max-w-4xl" aria-labelledby="pg031-minerals-caption">
+      <img id="pg031-minerals-source" src="images/pg031_minerals_source.png" data-id="pg031_im004_seg001_v1" alt="Almasi, dhahabu, makaa ya mawe, bati na chumvi, zikiwa katika mpangilio wa mistari miwili kama kwenye kitabu cha asili.">
+    </figure>
 
     <div class="mb-6 text-center max-sm:text-left">
-      <p class="adt-caption italic leading-relaxed text-slate-700">
+      <p id="pg031-minerals-caption" class="adt-caption italic leading-relaxed text-slate-700">
         <span data-id="pg031_n0012" class="font-semibold not-italic text-slate-800">Kielelezo namba 9:</span> <span data-id="pg031_n0013">Baadhi ya madini yaliyopatikana Tanganyika</span>
       </p>
     </div>

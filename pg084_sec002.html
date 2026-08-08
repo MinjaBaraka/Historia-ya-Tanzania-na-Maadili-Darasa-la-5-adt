@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Historia ya Tanzania na Maadili</title>
     <meta name="title-id" content="pg084_sec002">
-    <meta name="page-section-id" content="101">
+    <meta name="page-section-id" content="99">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
@@ -18,27 +18,37 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      /* Keep the activity readable: the decorative icon occupies its own
+         column and never sits on top of the instruction text. */
+      #pg084-content { width: min(calc(100% - 32px), 870px); margin: 0 auto; padding: 34px 0 48px; }
+      #pg084-activity { position: relative; margin: 28px 0 46px; padding: 30px 24px 18px 136px; min-height: 138px; overflow: visible; }
+      #pg084-activity-icon { position: absolute; left: -54px; top: 50%; transform: translateY(-50%); width: 112px; height: 112px; padding: 8px; }
+      #pg084-activity-title { width: min(100% - 44px, 458px); min-height: 42px; padding: 7px 18px; }
+      #pg084-activity-copy { margin: 0; line-height: 1.55; }
+      #pg084-exercise { margin: 0; }
+      @media (max-width: 640px) {
+        #pg084-content { width: calc(100% - 24px); padding-top: 22px; }
+        #pg084-activity { margin: 24px 0 34px; padding: 42px 18px 18px; }
+        #pg084-activity-icon { position: static; transform: none; width: 86px; height: 86px; margin: -4px auto 10px; }
+        #pg084-activity-title { width: calc(100% - 24px); }
+      }
     </style></head>
 
-<body class="min-h-screen flex items-center justify-center">
+<body class="min-h-screen bg-white">
     <main class="w-full">
-      <div class="container mx-auto max-w-5xl bg-white px-10 max-lg:px-8 max-sm:px-4 pt-10 pb-10 opacity-0" id="content">
-  <section data-section-type="activity_open_ended_answer" data-section-id="pg084_sec002" class="max-w-5xl mx-auto">
-    <div class="mb-8 pl-16 max-sm:pl-0">
-      <div class="relative rounded-2xl border-2 border-amber-700 bg-gradient-to-b from-amber-50 to-orange-50 px-8 pt-7 pb-6 max-sm:px-4 max-sm:pt-5 max-sm:pb-5">
-        <div class="absolute -left-14 bottom-3 h-24 w-24 rounded-full border-[6px] border-amber-700 bg-white shadow-md flex items-center justify-center overflow-hidden max-sm:static max-sm:mb-4 max-sm:h-20 max-sm:w-20 max-sm:border-4">
+      <div class="container mx-auto bg-white opacity-0" id="content">
+  <section data-section-type="activity_open_ended_answer" data-section-id="pg084_sec002" id="pg084-content">
+    <div id="pg084-activity" class="rounded-2xl border-2 border-amber-700 bg-gradient-to-b from-amber-50 to-orange-50">
+        <div id="pg084-activity-icon" class="rounded-full border-[6px] border-amber-700 bg-white shadow-md flex items-center justify-center">
           <img src="images/pg084_im006.jpg" alt="Watu wanne wameketi kuzunguka meza wakijadiliana kwa pamoja." data-id="pg084_im006" class="w-full h-full object-contain p-2" style="max-width: 100%; height: auto;">
         </div>
-        <div class="absolute left-1/2 -translate-x-1/2 -top-5 bg-amber-700 text-white rounded-lg px-10 py-2 shadow-sm max-sm:static max-sm:translate-x-0 max-sm:mb-3 max-sm:inline-block max-sm:px-5 max-sm:py-2">
+        <div id="pg084-activity-title" class="absolute left-1/2 -translate-x-1/2 -top-5 bg-amber-700 text-white rounded-lg shadow-sm">
           <h1 class="adt-h2 font-bold leading-tight text-center" data-id="pg084_n0020">Kazi ya kufanya namba 5</h1>
         </div>
-        <div class="pt-6 max-sm:pt-0">
-          <p class="adt-body leading-relaxed text-gray-900" data-id="pg084_n0022">Chunguza athari za mabadiliko ya maadili yaliyotokea wakati wa ukoloni kwa kuwauliza wazee ambayo yanaonekana mpaka sasa kisha wasilisha darasani</p>
-        </div>
+        <p id="pg084-activity-copy" class="adt-body text-gray-900" data-id="pg084_n0022">Chunguza athari za mabadiliko ya maadili yaliyotokea wakati wa ukoloni kwa kuwauliza wazee ambayo yanaonekana mpaka sasa kisha wasilisha darasani</p>
       </div>
-    </div>
 
-    <div>
+    <div id="pg084-exercise">
       <div class="inline-block bg-teal-900 text-white border-l-[12px] border-r-[12px] border-amber-600 px-8 py-2 rounded-none mb-0 max-sm:px-5">
         <h2 class="adt-h2 font-bold leading-tight" data-id="pg084_n0024">Zoezi la 4</h2>
       </div>

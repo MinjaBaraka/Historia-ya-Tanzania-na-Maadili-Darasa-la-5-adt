@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Historia ya Tanzania na Maadili</title>
     <meta name="title-id" content="pg111_sec001">
-    <meta name="page-section-id" content="141">
+    <meta name="page-section-id" content="139">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
@@ -18,51 +18,74 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      /* Page 105 follows the compact printed composition, rather than the
+         reader's full-width card defaults.  Pixel caps keep its proportions
+         stable when the reader font setting changes. */
+      #pg111-banner { width: min(calc(100% - 32px), 880px); margin: 0 auto 24px; }
+      #pg111-content { width: min(calc(100% - 32px), 810px); margin: 0 auto; }
+      #pg111-introduction { border-width: 3px; border-radius: 18px; }
+      #pg111-introduction .pg111-intro-head { height: 42px; }
+      #pg111-introduction .pg111-intro-label { min-width: 205px; padding: 7px 22px; }
+      #pg111-introduction .pg111-intro-copy { padding: 10px 12px 12px; line-height: 1.55; }
+      #pg111-thinking { margin-top: 22px; border-width: 3px; border-radius: 12px; }
+      #pg111-thinking .pg111-thinking-head { height: 37px; padding-left: 142px; }
+      #pg111-thinking .pg111-thinking-label { width: 128px; padding: 6px 12px; }
+      #pg111-thinking .pg111-thinking-icon { left: 9px; top: 2px; width: 118px; height: 118px; }
+      #pg111-thinking .pg111-thinking-copy {
+        min-height: 83px; margin: 0; padding: 12px 16px 10px 142px !important;
+        line-height: 1.45;
+      }
+      #pg111-activity { width: min(calc(100% + 60px), 870px); margin: 38px auto 0; min-height: 136px; border-width: 2px; border-radius: 12px; padding: 25px 14px 12px; }
+      #pg111-activity .pg111-activity-title { width: 456px; min-height: 40px; padding: 6px 18px; }
+      #pg111-activity .pg111-activity-icon { width: 112px; height: 112px; padding: 7px; }
+      #pg111-activity .pg111-activity-copy { margin: 0; padding-right: 10px; line-height: 1.5; }
+      #pg111-concept { width: min(calc(100% + 60px), 870px); margin: 24px auto 0; }
+      #pg111-concept h1 { margin: 0 0 9px; }
+      #pg111-concept p { margin: 0; line-height: 1.55; }
+      #pg111-page-footer { width: min(calc(100% - 32px), 1090px); height: 26px; margin: 42px auto 0; background: linear-gradient(to bottom, #00a7d1 0 6px, #dff7fb 7px, #fff 100%); position: relative; }
+      #pg111-page-footer span { position: absolute; left: 50%; top: -18px; transform: translateX(-50%); display: grid; place-items: center; width: 92px; height: 50px; border: 5px solid #234c78; border-radius: 50%; background: #fff; color: #1e293b; font-size: 20px; font-weight: 700; }
+      @media (max-width: 640px) {
+        #pg111-banner, #pg111-content, #pg111-activity, #pg111-concept { width: calc(100% - 24px); }
+        #pg111-introduction .pg111-intro-label { min-width: 0; width: 100%; }
+        #pg111-thinking .pg111-thinking-head { padding-left: 112px; }
+        #pg111-thinking .pg111-thinking-icon { width: 92px; height: 92px; }
+        #pg111-thinking .pg111-thinking-copy { min-height: 70px; padding-left: 112px !important; }
+        #pg111-activity { padding-top: 34px; }
+        #pg111-activity .pg111-activity-title { width: calc(100% - 20px); }
+        #pg111-activity .pg111-activity-icon { width: 86px; height: 86px; }
+      }
     </style></head>
 
-<body class="min-h-screen flex items-center justify-center">
+<body class="min-h-screen bg-white">
     <main class="w-full">
       <div id="content" class="container bg-white text-slate-900 opacity-0">
   <section data-section-type="boxed_text" data-section-id="pg111_sec001" class="w-full">
-    <div class="mx-auto w-full max-w-5xl px-8 max-sm:px-5 py-8">
-      <div class="mb-8">
+    <div class="mx-auto w-full py-8">
+      <div id="pg111-banner">
         <img src="images/pg111_im041.png" alt="Sura ya Tano: Tunu za taifa katika ujenzi wa umoja wa kitaifa na uzalendo." data-id="pg111_im041" class="w-full h-auto" style="max-width: 100%; height: auto;">
         <div data-id="pg111_n0002" class="sr-only">Sura ya Tano</div>
         <div data-id="pg111_n0003" class="sr-only">Tunu za taifa katika ujenzi wa umoja wa kitaifa na uzalendo</div>
       </div>
 
-      <aside class="mb-6 rounded-[1.75rem] border-4 border-sky-700 bg-white shadow-lg overflow-hidden">
-        <div class="bg-gradient-to-r from-slate-200 via-slate-200 to-teal-800 border-b-4 border-sky-700">
-          <div data-id="pg111_n0005" class="adt-h3 font-bold text-slate-800 px-6 py-3 z-10">Utangulizi</div>
-        </div>
-        <div class="p-0">
-          <img src="images/pg111_im043_seg001_v1.png" alt="Utangulizi unaeleza kuwa tunu za taifa ni msingi wa maadili, utamaduni, historia na mila zinazowaunganisha wananchi, na kwamba sura hii itafundisha maana yake na mchango wake katika kujenga umoja wa kitaifa." data-id="pg111_im043_seg001_v1" class="w-full h-auto" style="max-width: 100%; height: auto;">
-          <div data-id="pg111_n0007" class="sr-only">Tunu za Taifa ni misingi ya maadili, utamaduni, historia na mila zinazowaunganisha wananchi wa nchi husika.</div>
-          <div data-id="pg111_n0008" class="sr-only">Ulipokuwa darasa la nne ulijifunza maana, umuhimu na matumizi ya alama za taifa.</div>
-          <div data-id="pg111_n0009" class="sr-only">Katika sura hii, utajifunza maana ya tunu za taifa na mchango wake katika kujenga umoja wa kitaifa.</div>
-          <div data-id="pg111_n0010" class="sr-only">Umahiri utakaoupata utakuwezesha kuthamini, kupenda, kutumia na kuendeleza tunu za taifa.</div>
-        </div>
+      <div id="pg111-content">
+      <aside id="pg111-introduction" class="overflow-hidden border-sky-900 bg-white shadow-md">
+        <div class="pg111-intro-head flex items-stretch max-sm:flex-col"><div class="pg111-intro-label border-r-4 border-sky-900 bg-slate-200 max-sm:border-b-4 max-sm:border-r-0"><div data-id="pg111_n0005" class="adt-h3 font-bold text-slate-800">Utangulizi</div></div><div class="flex-1" style="background: linear-gradient(to right, #264754, #245c5d);"></div></div>
+        <p class="pg111-intro-copy adt-body italic text-slate-800"><span data-id="pg111_n0007">Tunu za Taifa ni misingi ya maadili, utamaduni, historia na mila zinazowaunganisha wananchi wa nchi husika.</span> <span data-id="pg111_n0008">Ulipokuwa darasa la nne ulijifunza maana, umuhimu na matumizi ya alama za taifa.</span> <span data-id="pg111_n0009">Katika sura hii, utajifunza maana ya tunu za taifa na mchango wake katika kujenga umoja wa kitaifa.</span> <span data-id="pg111_n0010">Umahiri utakaoupata utakuwezesha kuthamini, kupenda, kutumia na kuendeleza tunu za taifa.</span></p>
       </aside>
 
-      <div class="mb-8 rounded-2xl border-2 border-amber-400 bg-amber-50 shadow-sm overflow-hidden">
-        <div class="px-6 pt-0 pb-5">
-          <div class="flex items-start gap-5 max-lg:flex-col max-lg:items-start">
-            <div class="flex-1 min-w-0">
-              <div data-id="pg111_n0016" class="adt-h3 font-bold text-white bg-gradient-to-b from-amber-500 to-amber-700 rounded-xl px-6 py-3 inline-block -mt-4 mb-4 shadow-md z-10">Kazi ya kufanya namba 1</div>
-              <div class="flex items-center gap-4 max-sm:flex-col max-sm:items-start">
-                <img src="images/pg111_im006.png" alt="" class="w-24 h-24 object-contain flex-none" style="max-width: 100%; height: auto;" role="presentation" aria-hidden="true">
-                <p class="adt-body leading-8 text-slate-800 z-10" data-id="pg111_n0018">Tumia maktaba mtandao na matini mbalimbali kueleza maana na umuhimu wa tunu za taifa</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <aside id="pg111-thinking" class="relative overflow-visible border-sky-900 bg-slate-100 shadow-sm">
+        <div class="pg111-thinking-head rounded-t-lg" style="background: linear-gradient(to right, #264754, #705b7a, #36577e);"><div class="pg111-thinking-label inline-block rounded-b-xl text-center text-yellow-300" style="background-color: #264754;"><div data-id="pg111_n0013" class="adt-h3 font-bold">Fikiri</div></div></div>
+        <div class="pg111-thinking-icon absolute flex items-center justify-center rounded-full border-2 border-slate-300 bg-white p-1 shadow-sm"><img src="images/pg045_thinking.png" alt="" class="block h-auto max-w-full rounded-full object-contain" style="width: auto; height: auto;" role="presentation" aria-hidden="true"></div>
+        <p data-id="pg111_n0014" class="pg111-thinking-copy adt-body text-left text-slate-800">Athari za kutolinda maadili ya Kitanzania dhidi ya maadili ya kigeni</p>
+      </aside>
 
-      <div class="mb-3">
+      <aside id="pg111-activity" class="relative overflow-visible border-2 bg-[#f8ecd9] shadow-sm" style="border-color: #b36b21;"><div class="pg111-activity-title absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-xl border-2 text-center text-white shadow-sm" style="border-color: #a45f1f; background-color: #bd7625;"><div data-id="pg111_n0016" class="adt-h3 font-bold">Kazi ya kufanya namba 1</div></div><div class="flex items-center gap-3 max-sm:items-start"><div class="pg111-activity-icon flex shrink-0 items-center justify-center rounded-full border-4 bg-white shadow-sm" style="border-color: #b36b21;"><img src="images/pg111_im006.png" alt="" class="block h-auto max-w-full object-contain" style="width: auto; height: auto;" role="presentation" aria-hidden="true"></div><p class="pg111-activity-copy adt-body flex-1 text-left text-slate-800" data-id="pg111_n0018">Tumia maktaba mtandao na matini mbalimbali kueleza maana na umuhimu wa tunu za taifa</p></div></aside>
+
+      <div id="pg111-concept">
         <h1 data-id="pg111_n0020" class="adt-h2 font-bold text-sky-900 z-10">Dhana ya tunu</h1>
       </div>
 
-      <p class="adt-body leading-8 text-slate-900 z-10 mb-10">
+      <p class="adt-body text-slate-900 z-10">
         <span data-id="pg111_n0022">Tunu ni hali ambazo watu katika jamii husika wanazipenda na kuzithamini katika maisha yao ya kila siku.</span>
         <span data-id="pg111_n0023">Ni hali ambazo jamii inazipenda, inazienzi, inazijali na kuzilinda kama kitu cha thamani katika maisha.</span>
         <span data-id="pg111_n0024">Ndio maana hakuna tunu mbaya.</span>
@@ -74,6 +97,8 @@
         <span data-id="pg111_n0030">Jamii za Kiafrika, ikiwemo Tanzania, zinathamini tunu ya uhuru, usawa</span>
       </p>
 
+      </div>
+      <div id="pg111-page-footer" aria-hidden="true"><span>105</span></div>
       <div class="flex justify-between items-end pt-8 border-t border-slate-200 text-slate-600 gap-4 max-sm:flex-col max-sm:items-start">
 
 
