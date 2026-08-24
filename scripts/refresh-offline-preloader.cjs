@@ -36,8 +36,26 @@ for (const relativePath of sources) {
   inline[`./${relativePath}`] = JSON.parse(fs.readFileSync(diskPath, "utf8"));
 }
 
+// Page HTML is also embedded for offline navigation. Keep those snapshots in
+// lockstep with the live files so content, accessibility text and TOC links do
+// not fall back to an older exported version when the network is unavailable.
+const pages = JSON.parse(
+  fs.readFileSync(path.join(root, "content", "pages.json"), "utf8"),
+);
+const htmlSources = [
+  "content/navigation/nav.html",
+  ...new Set(pages.map((page) => page.href)),
+];
+for (const relativePath of htmlSources) {
+  const diskPath = path.join(root, relativePath);
+  if (!fs.existsSync(diskPath)) continue;
+  inline[`./${relativePath}`] = fs.readFileSync(diskPath, "utf8");
+}
+
 fs.writeFileSync(
   preloaderPath,
   `${source.slice(0, start + startMarker.length)}${JSON.stringify(inline)}${source.slice(end)}`,
 );
-console.log(`Refreshed ${sources.length} offline-preloader data sources.`);
+console.log(
+  `Refreshed ${sources.length} data sources and ${htmlSources.length} offline HTML sources.`,
+);
