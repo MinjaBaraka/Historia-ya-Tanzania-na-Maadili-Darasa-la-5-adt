@@ -23,6 +23,13 @@
       font-family: 'Atkinson Hyperlegible', 'Merriweather', sans-serif;
     }
 
+    [data-pronunciation-row] > .sr-only.tts-active-block + [aria-hidden="true"],
+    [data-pronunciation-row] > .sr-only:has([data-word-index].bg-yellow-300) + [aria-hidden="true"] {
+      background-color: #fde047 !important;
+      color: #000 !important;
+      border-radius: 3px;
+    }
+
     .inside-cover {
       position: relative;
       box-sizing: border-box;
@@ -169,9 +176,9 @@
         <img data-id="pg002_im001" src="images/pg002_im001.png" alt="" class="cover-top" role="presentation"
           aria-hidden="true" />
         <div class="cover-copy adt-body">
-          <p><span data-id="pg002_n0002">© Taasisi ya Elimu Tanzania, 2025</span></p>
+          <p data-pronunciation-row><span data-id="pg002_n0002" class="sr-only">© Taasisi ya Elimu Tanzania, 2025</span><span aria-hidden="true">© Taasisi ya Elimu Tanzania, 2025</span></p>
           <p class="edition"><span data-id="pg002_n0004">Toleo la Kwanza, 2025</span></p>
-          <p class="isbn"><span data-id="pg002_n0006">ISBN 978-9912-765-04-7</span></p>
+          <p class="isbn" data-pronunciation-row><span data-id="pg002_n0006" class="sr-only">ISBN 978-9912-765-04-7</span><span aria-hidden="true">ISBN 978-9912-765-04-7</span></p>
           <div class="address">
             <p><span data-id="pg002_n0008">Taasisi ya Elimu Tanzania</span></p>
             <p><span data-id="pg002_n0009">Eneo la Mikocheni</span></p>
@@ -180,7 +187,7 @@
             <p><span data-id="pg002_n0012">14112 Dar es Salaam</span></p>
           </div>
           <div class="contacts">
-            <p><span data-id="pg002_n0014">Simu: +255735041168 / +255735041170</span></p>
+            <p data-pronunciation-row><span data-id="pg002_n0014" class="sr-only">Simu: +255735041168 / +255735041170</span><span aria-hidden="true">Simu: +255735041168 / +255735041170</span></p>
             <p><span data-id="pg002_n0015">Baruapepe: director.general@tie.go.tz</span></p>
             <p><span data-id="pg002_n0016">Tovuti: www.tie.go.tz</span></p>
           </div>
