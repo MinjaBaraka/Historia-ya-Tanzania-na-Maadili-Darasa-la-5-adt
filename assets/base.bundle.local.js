@@ -39692,7 +39692,6 @@ function useAtomValueWithDelay<Value>(
     const slMode = useAtomValue(signLanguageModeAtom);
     const setSlMode = useSetAtom(signLanguageModeAtom);
     const videoFilename = useAtomValue(currentPageSignLanguageVideoAtom);
-    const activeMedia = useAtomValue(activeMediaAtom);
     const setActiveMedia = useSetAtom(activeMediaAtom);
     const lang = useAtomValue(currentLanguageAtom);
     const isMobile = useIsMobile();
@@ -39707,10 +39706,8 @@ function useAtomValueWithDelay<Value>(
     (0, import_react14.useEffect)(() => {
       setAspectRatio(null);
     }, [src]);
-    (0, import_react14.useEffect)(() => {
-      if (activeMedia !== "tts") return;
-      videoRef.current?.pause();
-    }, [activeMedia]);
+    // Sign-language video and read-aloud audio are intentionally independent.
+    // Starting narration must not pause a video that the learner chose to play.
     if (src === null) return null;
     const positioned = position !== null;
     const baseWidth = 320;
@@ -43615,7 +43612,6 @@ function useAtomValueWithDelay<Value>(
     const playSessionRef = (0, import_react21.useRef)(0);
     const [isPlaying, setIsPlaying] = useAtom(isPlayingAtom);
     const [currentIndex, setCurrentIndex] = useAtom(currentAudioIndexAtom);
-    const activeMedia = useAtomValue(activeMediaAtom);
     const setActiveMedia = useSetAtom(activeMediaAtom);
     const audioFiles = useAtomValue(audioFilesAtom);
     const translations = useAtomValue(translationsAtom);
@@ -43824,19 +43820,8 @@ function useAtomValueWithDelay<Value>(
       setIsPlaying(false);
       setCurrentIndex(0);
     }, [readAloudMode, stopAndClear, setIsPlaying, setCurrentIndex]);
-    (0, import_react21.useEffect)(() => {
-      if (activeMedia !== "sign-language") return;
-      stopAndClear();
-      setIsPlaying(false);
-      setCurrentIndex(0);
-      setReadAloudMode(false);
-    }, [
-      activeMedia,
-      stopAndClear,
-      setIsPlaying,
-      setCurrentIndex,
-      setReadAloudMode
-    ]);
+    // Do not stop narration when sign-language playback starts. Each player
+    // keeps its own play/pause state so both may run together or separately.
     (0, import_react21.useEffect)(() => {
       if (audioRef.current) audioRef.current.playbackRate = speed;
     }, [speed]);
