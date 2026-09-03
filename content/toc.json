@@ -5,7 +5,7 @@
     "title": "Shukurani",
     "chapter_id": "pg005_n0002",
     "level": 1,
-    "adt_index": 5
+    "adt_index": 6
   },
   {
     "section_id": "pg006_sec001",
@@ -13,7 +13,7 @@
     "title": "Utangulizi",
     "chapter_id": "pg006_n0002",
     "level": 1,
-    "adt_index": 6
+    "adt_index": 7
   },
   {
     "section_id": "pg007_sec001",
@@ -21,7 +21,7 @@
     "title": "Sura ya Kwanza",
     "chapter_id": "pg007_n0002",
     "level": 1,
-    "adt_index": 7
+    "adt_index": 8
   },
   {
     "section_id": "pg007_sec001",
@@ -29,7 +29,7 @@
     "title": "Historia ya Tanzania wakati wa ukoloni",
     "chapter_id": "pg007_n0003",
     "level": 2,
-    "adt_index": 7
+    "adt_index": 8
   },
   {
     "section_id": "pg008_sec001",
@@ -37,7 +37,7 @@
     "title": "Chimbuko la ukoloni",
     "chapter_id": "pg008_n0014",
     "level": 3,
-    "adt_index": 8
+    "adt_index": 9
   },
   {
     "section_id": "pg009_sec001",
@@ -45,7 +45,7 @@
     "title": "Utawala wa kikoloni Tanganyika",
     "chapter_id": "pg009_n0014",
     "level": 3,
-    "adt_index": 9
+    "adt_index": 10
   },
   {
     "section_id": "pg014_sec001",
@@ -53,7 +53,7 @@
     "title": "Uchumi wa kikoloni katika utawala wa Kijerumani",
     "chapter_id": "pg014_n0002",
     "level": 3,
-    "adt_index": 14
+    "adt_index": 15
   },
   {
     "section_id": "pg016_sec001",
@@ -61,7 +61,7 @@
     "title": "Mapambano dhidi ya ukoloni wa Kijerumani",
     "chapter_id": "pg016_n0018",
     "level": 3,
-    "adt_index": 16
+    "adt_index": 17
   },
   {
     "section_id": "pg023_sec001",
@@ -69,7 +69,7 @@
     "title": "Utawala wa Waingereza",
     "chapter_id": "pg023_n0019",
     "level": 3,
-    "adt_index": 23
+    "adt_index": 24
   },
   {
     "section_id": "pg033_sec001",
@@ -77,7 +77,7 @@
     "title": "Mbinu zilizotumika kujenga utawala katika kipindi cha ukoloni",
     "chapter_id": "pg033_n0002",
     "level": 3,
-    "adt_index": 33
+    "adt_index": 34
   },
   {
     "section_id": "pg033_sec001",
@@ -85,7 +85,7 @@
     "title": "Harakati za ukombozi wa jamii za Watanganyika",
     "chapter_id": "pg033_n0022",
     "level": 3,
-    "adt_index": 33
+    "adt_index": 34
   },
   {
     "section_id": "pg036_sec001",
@@ -93,7 +93,7 @@
     "title": "Mabadiliko ya mifumo ya kijamii na kiutawala wakati wa Wajerumani na Waingereza",
     "chapter_id": "pg036_n0011",
     "level": 3,
-    "adt_index": 36
+    "adt_index": 37
   },
   {
     "section_id": "pg039_sec001",
@@ -101,7 +101,7 @@
     "title": "Vyombo vya ulinzi",
     "chapter_id": "pg039_n0020",
     "level": 3,
-    "adt_index": 39
+    "adt_index": 40
   },
   {
     "section_id": "pg045_sec001",
@@ -109,7 +109,7 @@
     "title": "Sura ya Pili",
     "chapter_id": "pg045_n0002",
     "level": 1,
-    "adt_index": 45
+    "adt_index": 46
   },
   {
     "section_id": "pg045_sec001",
@@ -117,7 +117,7 @@
     "title": "Mifumo ya kikoloni katika maadili na urithi wa Kitanzania",
     "chapter_id": "pg045_n0003",
     "level": 2,
-    "adt_index": 45
+    "adt_index": 46
   },
   {
     "section_id": "pg045_sec001",
@@ -125,7 +125,7 @@
     "title": "Athari za mifumo ya kikoloni katika maadili na urithi wa Kitanzania",
     "chapter_id": "pg045_n0015",
     "level": 3,
-    "adt_index": 45
+    "adt_index": 46
   },
   {
     "section_id": "pg047_sec001",
@@ -133,7 +133,7 @@
     "title": "Athari za mfumo ya kikoloni katika maadili",
     "chapter_id": "pg047_n0004",
     "level": 3,
-    "adt_index": 47
+    "adt_index": 48
   },
   {
     "section_id": "pg055_sec001",
@@ -141,7 +141,7 @@
     "title": "Mfumo ya kisiasa ya kikoloni na athari zake katika maadili na urithi wa Kitanzania",
     "chapter_id": "pg055_n0011",
     "level": 3,
-    "adt_index": 55
+    "adt_index": 56
   },
   {
     "section_id": "pg057_sec001",
@@ -149,7 +149,7 @@
     "title": "Mfumo ya kiuchumi ya kikoloni na athari zake katika maadili na urithi",
     "chapter_id": "pg057_n0004",
     "level": 3,
-    "adt_index": 57
+    "adt_index": 58
   },
   {
     "section_id": "pg058_sec001",
@@ -157,7 +157,7 @@
     "title": "Athari za ukoloni katika mifumo ya mamlaka za kijadi katika jamii za Kitanzania",
     "chapter_id": "pg058_n0013",
     "level": 3,
-    "adt_index": 58
+    "adt_index": 59
   },
   {
     "section_id": "pg061_sec001",
@@ -165,7 +165,7 @@
     "title": "Athari za ukoloni katika mifumo ya mamlaka za kijadi kiuchumi",
     "chapter_id": "pg061_n0024",
     "level": 3,
-    "adt_index": 61
+    "adt_index": 62
   },
   {
     "section_id": "pg069_sec001",
@@ -173,7 +173,7 @@
     "title": "Sura ya Tatu",
     "chapter_id": "pg069_n0002",
     "level": 1,
-    "adt_index": 69
+    "adt_index": 70
   },
   {
     "section_id": "pg069_sec001",
@@ -181,7 +181,7 @@
     "title": "Mabadiliko na mwendelezo wa maadili ya Kitanzania kabla na wakati wa ukoloni",
     "chapter_id": "pg069_n0003",
     "level": 2,
-    "adt_index": 69
+    "adt_index": 70
   },
   {
     "section_id": "pg069_sec001",
@@ -189,7 +189,7 @@
     "title": "Dhana ya mabadiliko ya maadili",
     "chapter_id": "pg069_n0010",
     "level": 3,
-    "adt_index": 69
+    "adt_index": 70
   },
   {
     "section_id": "pg077_sec001",
@@ -197,7 +197,7 @@
     "title": "Mabadiliko ya maadili wakati wa ukoloni",
     "chapter_id": "pg077_n0004",
     "level": 3,
-    "adt_index": 77
+    "adt_index": 78
   },
   {
     "section_id": "pg085_sec001",
@@ -205,7 +205,7 @@
     "title": "Nafasi ya ukoloni katika kuleta mabadiliko na maendeleo wa maadili",
     "chapter_id": "pg085_n0039",
     "level": 3,
-    "adt_index": 85
+    "adt_index": 86
   },
   {
     "section_id": "pg090_sec001",
@@ -213,7 +213,7 @@
     "title": "Sura ya Nne",
     "chapter_id": "pg090_n0002",
     "level": 1,
-    "adt_index": 90
+    "adt_index": 91
   },
   {
     "section_id": "pg090_sec001",
@@ -221,7 +221,7 @@
     "title": "Ulinzi wa maadili ya Kitanzania dhidi ya maadili ya kigeni",
     "chapter_id": "pg090_n0003",
     "level": 2,
-    "adt_index": 90
+    "adt_index": 91
   },
   {
     "section_id": "pg090_sec001",
@@ -229,7 +229,7 @@
     "title": "Dhana ya ulinzi wa maadili",
     "chapter_id": "pg090_n0018",
     "level": 3,
-    "adt_index": 90
+    "adt_index": 91
   },
   {
     "section_id": "pg092_sec001",
@@ -237,7 +237,7 @@
     "title": "Njia zilizotumika kulinda maadili ya Kitanzania wakati wa ukoloni",
     "chapter_id": "pg092_n0004",
     "level": 3,
-    "adt_index": 92
+    "adt_index": 93
   },
   {
     "section_id": "pg099_sec001",
@@ -245,7 +245,7 @@
     "title": "Sababu za ulinzi wa maadili ya Kitanzania dhidi ya maadili ya kigeni",
     "chapter_id": "pg099_n0016",
     "level": 3,
-    "adt_index": 99
+    "adt_index": 100
   },
   {
     "section_id": "pg105_sec001",
@@ -253,7 +253,7 @@
     "title": "Changamoto zilizojitokeza wakati wa kulinda maadili ya Kitanzania dhidi ya maadili ya kigeni",
     "chapter_id": "pg105_n0031",
     "level": 3,
-    "adt_index": 105
+    "adt_index": 106
   },
   {
     "section_id": "pg111_sec001",
@@ -261,7 +261,7 @@
     "title": "Sura ya Tano",
     "chapter_id": "pg111_n0002",
     "level": 1,
-    "adt_index": 111
+    "adt_index": 112
   },
   {
     "section_id": "pg111_sec001",
@@ -269,7 +269,7 @@
     "title": "Tunu za taifa katika ujenzi wa umoja wa kitaifa na uzalendo",
     "chapter_id": "pg111_n0003",
     "level": 2,
-    "adt_index": 111
+    "adt_index": 112
   },
   {
     "section_id": "pg111_sec001",
@@ -277,7 +277,7 @@
     "title": "Dhana ya tunu",
     "chapter_id": "pg111_n0019",
     "level": 3,
-    "adt_index": 111
+    "adt_index": 112
   },
   {
     "section_id": "pg112_sec001",
@@ -285,7 +285,7 @@
     "title": "Tunu za taifa",
     "chapter_id": "pg112_n0018",
     "level": 3,
-    "adt_index": 112
+    "adt_index": 113
   },
   {
     "section_id": "pg117_sec001",
@@ -293,7 +293,7 @@
     "title": "Umuhimu wa tunu za taifa",
     "chapter_id": "pg117_n0029",
     "level": 3,
-    "adt_index": 117
+    "adt_index": 118
   },
   {
     "section_id": "pg120_sec001",
@@ -301,7 +301,7 @@
     "title": "Mchango wa tunu na alama za taifa katika kujenga umoja wa kitaifa na uzalendo",
     "chapter_id": "pg120_n0004",
     "level": 3,
-    "adt_index": 120
+    "adt_index": 121
   },
   {
     "section_id": "pg125_sec001",
@@ -309,6 +309,6 @@
     "title": "Matendo ya kushiriki, kuzitetea, kuzilinda na kuzidumisha tunu na alama za taifa",
     "chapter_id": "pg125_n0015",
     "level": 3,
-    "adt_index": 125
+    "adt_index": 126
   }
 ]
