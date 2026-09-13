@@ -1,5 +1,6 @@
 # GitHub Pages publishes reader files without development/debug artifacts.
 exclude:
+  - SIGN_LANGUAGE_VIDEO_UPDATE.md
   - AGENTS.md
   - RESPONSIVE_READER.md
   - QA_AUDIT_LOG.md
