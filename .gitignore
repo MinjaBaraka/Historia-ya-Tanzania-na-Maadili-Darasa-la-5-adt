@@ -3,3 +3,19 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Generated files are not part of an exported textbook.
+._*
+__MACOSX/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+/_site/
+/tmp/
+/temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
